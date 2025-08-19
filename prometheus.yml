@@ -7,11 +7,7 @@ scrape_configs:
   - targets: [ 'rtsp-probe:8001' ]
 
 remote_write:
-- url: https://prometheus-prod-09-prod-au-southeast-0.grafana.net/api/prom/push
-  basic_auth:
-    username: <username>
-    password: <password>
-- url: https://prometheus-us-central1.grafana.net/api/prom/push
+- url: https://<prometheus_instance>.grafana.net/api/prom/push
   basic_auth:
     username: <username>
     password: <password>
