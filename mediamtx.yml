@@ -1,7 +1,0 @@
-# Uncomment the volumes section in docker-compose to enable this file.
-# This keeps things simple but lets you tighten control as needed.
-paths:
-  obs:
-    # publishUser: myuser
-    # publishPass: mypass
-    overridePublisher: yes # last publisher wins (handy for dev)
